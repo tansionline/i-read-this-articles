@@ -5,7 +5,7 @@
 
 return [
     // Application name
-    'name' => 'AzuraCast',
+    'name' => 'Radiolize',
 
     // Subfolder for the application (if applicable)
     'base_uri' => '/',

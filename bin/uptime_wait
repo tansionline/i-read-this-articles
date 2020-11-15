@@ -65,7 +65,7 @@ class UptimeWait
 
     public function run(): void
     {
-        $this->println('Starting up AzuraCast services...');
+        $this->println('Starting up Radiolize services...');
 
         $elapsed = 0;
         while ($elapsed <= $this->timeout) {
