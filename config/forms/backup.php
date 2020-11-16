@@ -14,7 +14,7 @@ return [
                     'toggle',
                     [
                         'label' => __('Run Automatic Nightly Backups'),
-                        'description' => __('Enable to have AzuraCast automatically run nightly backups at the time specified.'),
+                        'description' => __('Enable to have Radiolize automatically run nightly backups at the time specified.'),
                         'selected_text' => __('Yes'),
                         'deselected_text' => __('No'),
                         'default' => false,

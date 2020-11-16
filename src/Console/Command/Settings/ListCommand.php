@@ -13,7 +13,7 @@ class ListCommand extends CommandAbstract
         SymfonyStyle $io,
         Entity\Repository\SettingsRepository $settings_repo
     ): int {
-        $io->title(__('AzuraCast Settings'));
+        $io->title(__('Radiolize Settings'));
 
         $headers = [
             __('Setting Key'),

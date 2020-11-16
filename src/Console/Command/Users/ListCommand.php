@@ -13,7 +13,7 @@ class ListCommand extends CommandAbstract
         SymfonyStyle $io,
         EntityManagerInterface $em
     ): int {
-        $io->title('AzuraCast User Accounts');
+        $io->title('Radiolize User Accounts');
 
         $usersRaw = $em->getRepository(Entity\User::class)
             ->findAll();

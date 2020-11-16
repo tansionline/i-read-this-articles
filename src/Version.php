@@ -153,7 +153,7 @@ class Version
         $details = $this->getDetails();
 
         if (isset($details['tag'])) {
-            $commitLink = 'https://github.com/AzuraCast/AzuraCast/commit/' . $details['commit'];
+            $commitLink = 'https://github.com/bytelus/AzuraCast/commit/' . $details['commit'];
             $commitText = sprintf(
                 '#<a href="%s" target="_blank">%s</a> (%s)',
                 $commitLink,

@@ -30,7 +30,7 @@ class OpenApiController
         $api_base_url = str_replace('/openapi.yml', '', $api_base_url);
 
         define('AZURACAST_API_URL', $api_base_url);
-        define('AZURACAST_API_NAME', 'This AzuraCast Installation');
+        define('AZURACAST_API_NAME', 'This Radiolize Installation');
         define('AZURACAST_VERSION', $this->version->getVersion());
 
         $oa = scan([

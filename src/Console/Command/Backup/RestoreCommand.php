@@ -23,7 +23,7 @@ class RestoreCommand extends CommandAbstract
     ): int {
         $start_time = microtime(true);
 
-        $io->title('AzuraCast Restore');
+        $io->title('Radiolize Restore');
         $io->writeln('Please wait while the backup is restored...');
 
         if ('/' !== $path[0]) {

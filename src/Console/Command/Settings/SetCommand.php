@@ -14,7 +14,7 @@ class SetCommand extends CommandAbstract
         string $settingKey,
         string $settingValue
     ): int {
-        $io->title('AzuraCast Settings');
+        $io->title('Radiolize Settings');
 
         if (strtolower($settingValue) === 'null') {
             $settings_repo->deleteSetting($settingKey);

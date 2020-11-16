@@ -38,7 +38,7 @@ class CheckForUpdates extends AbstractTask
         }
 
         if (Settings::getInstance()->isTesting()) {
-            $this->logger->info('Update checks are currently disabled for this AzuraCast instance.');
+            $this->logger->info('Update checks are currently disabled for this Radiolize instance.');
             return;
         }
 
@@ -49,10 +49,10 @@ class CheckForUpdates extends AbstractTask
                 $this->settingsRepo->setSetting(Entity\Settings::UPDATE_RESULTS, $updates);
                 $this->logger->info('Successfully checked for updates.', ['results' => $updates]);
             } else {
-                $this->logger->error('Error parsing update data response from AzuraCast central.');
+                $this->logger->error('Error parsing update data response from Radiolize central.');
             }
         } catch (TransferException $e) {
-            $this->logger->error(sprintf('Error from AzuraCast Central (%d): %s', $e->getCode(), $e->getMessage()));
+            $this->logger->error(sprintf('Error from Radiolize Central (%d): %s', $e->getCode(), $e->getMessage()));
             return;
         }
 

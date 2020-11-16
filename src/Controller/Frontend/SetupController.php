@@ -207,7 +207,7 @@ class SetupController
                 sprintf(
                     '<b>%s</b><br>%s',
                     __('Setup is now complete!'),
-                    __('Continue setting up your station in the main AzuraCast app.')
+                    __('Continue setting up your station in the main Radiolize app.')
                 ),
                 Flash::SUCCESS
             );

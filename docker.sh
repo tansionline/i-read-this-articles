@@ -189,7 +189,7 @@ setup-letsencrypt() {
 #
 setup-release() {
     local AZURACAST_VERSION="latest"
-    if ask "Prefer stable release versions of AzuraCast?" N; then
+    if ask "Prefer stable release versions of Radiolize?" N; then
         AZURACAST_VERSION="stable"
     fi
 
@@ -257,7 +257,7 @@ install() {
     fi
 
     if [[ ! -f azuracast.env ]]; then
-        echo "Creating default AzuraCast settings file..."
+        echo "Creating default Radiolize settings file..."
         curl -fsSL https://raw.githubusercontent.com/AzuraCast/AzuraCast/master/azuracast.sample.env -o azuracast.env
 
         # Generate a random password and replace the MariaDB password with it.
@@ -285,7 +285,7 @@ install() {
         fi
     fi
 
-    if ask "Customize AzuraCast ports?" N; then
+    if ask "Customize Radiolize ports?" N; then
         setup-ports
     fi
 

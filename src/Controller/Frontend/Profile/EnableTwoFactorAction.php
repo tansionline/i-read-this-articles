@@ -61,7 +61,7 @@ class EnableTwoFactorAction
 
         // Further customize TOTP code (with metadata that won't be stored in the DB)
         $totp->setIssuer('AzuraCast');
-        $totp->setParameter('image', 'https://www.azuracast.com/img/logo.png');
+        $totp->setParameter('image', 'https://radiolize.com/my/radiolizeamblem.png');
 
         // Generate QR code
         $totp_uri = $totp->getProvisioningUri();

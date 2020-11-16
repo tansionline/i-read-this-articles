@@ -20,7 +20,7 @@ $this->layout('main', [
                 <?php foreach($global_logs as $log_key => $log_info): ?>
                     <a class="list-group-item list-group-item-action log-item" href="<?=$router->fromHere('admin:logs:view', ['station_id' => 'global', 'log' => $log_key]) ?>">
                         <span class="log-name"><?=$log_info['name'] ?></span><br>
-                        <small class="text-secondary"><?=$log_info['path'] ?></small>
+                     
                     </a>
                 <?php endforeach; ?>
             </div>
@@ -45,7 +45,7 @@ $this->layout('main', [
                 <?php foreach($station_row['logs'] as $log_key => $log_info): ?>
                     <a class="list-group-item list-group-item-action log-item" href="<?=$router->fromHere('admin:logs:view', ['station_id' => $station_id, 'log' => $log_key]) ?>">
                         <span class="log-name"><?=$log_info['name'] ?></span><br>
-                        <small class="text-secondary"><?=$log_info['path'] ?></small>
+                        
                     </a>
                 <?php endforeach; ?>
                 </div>

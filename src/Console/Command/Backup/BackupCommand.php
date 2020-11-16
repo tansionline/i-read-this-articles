@@ -55,7 +55,7 @@ class BackupCommand extends CommandAbstract
         $includeMedia = !$excludeMedia;
         $files_to_backup = [];
 
-        $io->title(__('AzuraCast Backup'));
+        $io->title(__('Radiolize Backup'));
         $io->writeln(__('Please wait while a backup is generated...'));
 
         // Create temp directories

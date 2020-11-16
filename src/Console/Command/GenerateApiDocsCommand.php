@@ -14,8 +14,8 @@ class GenerateApiDocsCommand extends CommandAbstract
         SymfonyStyle $io,
         Settings $settings
     ): int {
-        define('AZURACAST_API_URL', 'https://demo.azuracast.com/api');
-        define('AZURACAST_API_NAME', 'AzuraCast Public Demo Server');
+        define('AZURACAST_API_URL', 'https://my.radiolize.com/api');
+        define('AZURACAST_API_NAME', 'Radiolize Demo Server');
         define('AZURACAST_VERSION', Version::FALLBACK_VERSION);
 
         $oa = scan([

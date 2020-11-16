@@ -23,8 +23,8 @@ class SetupCommand extends CommandAbstract
         bool $update = false,
         bool $loadFixtures = false
     ): int {
-        $io->title(__('AzuraCast Setup'));
-        $io->writeln(__('Welcome to AzuraCast. Please wait while some key dependencies of AzuraCast are set up...'));
+        $io->title(__('Radiolize Setup'));
+        $io->writeln(__('Welcome to Radiolize. Please wait while some key dependencies of Radiolize are set up...'));
 
         $io->listing([
             __('Environment: %s', ucfirst($settings[Settings::APP_ENV])),
@@ -92,13 +92,13 @@ class SetupCommand extends CommandAbstract
 
         if ($update) {
             $io->success([
-                __('AzuraCast is now updated to the latest version!'),
+                __('Radiolize is now updated to the latest version!'),
             ]);
         } else {
             $public_ip = $acCentral->getIp(false);
 
             $io->success([
-                __('AzuraCast installation complete!'),
+                __('Radiolize installation complete!'),
                 __('Visit %s to complete setup.', 'http://' . $public_ip),
             ]);
         }

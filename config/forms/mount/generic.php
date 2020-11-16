@@ -134,7 +134,7 @@ return [
                     [
                         'label' => __('Custom Stream URL'),
                         'label_class' => 'advanced',
-                        'description' => __('You can set a custom URL for this stream that AzuraCast will use when referring to it. Leave empty to use the default value.'),
+                        'description' => __('You can set a custom URL for this stream that Radiolize will use when referring to it. Leave empty to use the default value.'),
                         'form_group_class' => 'col-sm-12',
                     ]
                 ],

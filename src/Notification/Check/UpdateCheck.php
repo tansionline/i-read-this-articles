@@ -50,8 +50,8 @@ class UpdateCheck
         if (Version::RELEASE_CHANNEL_STABLE === $releaseChannel && $updateData['needs_release_update']) {
             $notification_parts = [
                 '<b>' . __(
-                    'AzuraCast <a href="%s" target="_blank">version %s</a> is now available.',
-                    'https://github.com/AzuraCast/AzuraCast/releases',
+                    'Radiolize <a href="%s" target="_blank">version %s</a> is now available.',
+                    'https://github.com/bytelus/AzuraCast/releases',
                     $updateData['latest_release']
                 ) . '</b>',
                 __(
@@ -62,7 +62,7 @@ class UpdateCheck
             ];
 
             $event->addNotification(new Notification(
-                __('New AzuraCast Release Version Available'),
+                __('New Radiolize Release Version Available'),
                 implode(' ', $notification_parts),
                 Notification::INFO
             ));
@@ -88,7 +88,7 @@ class UpdateCheck
             $notification_parts[] = $instructions_string;
 
             $event->addNotification(new Notification(
-                __('New AzuraCast Updates Available'),
+                __('New Radiolize Updates Available'),
                 implode(' ', $notification_parts),
                 Notification::INFO
             ));

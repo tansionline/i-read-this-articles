@@ -13,7 +13,7 @@ if [ $(whoami) != 'azuracast' ]; then
     exit 1
 fi
 
-echo "AzuraCast Setup"
+echo "Radiolize Setup"
 
 APPLICATION_ENV="${APPLICATION_ENV:-production}"
 echo "(Environment: $APPLICATION_ENV)"

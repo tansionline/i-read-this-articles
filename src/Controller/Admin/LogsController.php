@@ -48,7 +48,7 @@ class LogsController extends AbstractLogViewerController
         $logPaths = [];
 
         $logPaths['azuracast_log'] = [
-            'name' => __('AzuraCast Application Log'),
+            'name' => __('Radiolize Application Log'),
             'path' => $tempDir . '/app.log',
             'tail' => true,
         ];

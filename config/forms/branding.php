@@ -40,7 +40,7 @@ return [
                     'text',
                     [
                         'label' => __('Homepage Redirect URL'),
-                        'description' => __('If a visitor is not signed in and visits the AzuraCast homepage, you can automatically redirect them to the URL specified here. Leave blank to redirect them to the login screen by default.'),
+                        'description' => __('If a visitor is not signed in and visits the Radiolize homepage, you can automatically redirect them to the URL specified here. Leave blank to redirect them to the login screen by default.'),
                         'default' => '',
                         'form_group_class' => 'col-md-6',
                     ],
@@ -59,8 +59,8 @@ return [
                 Entity\Settings::HIDE_PRODUCT_NAME => [
                     'toggle',
                     [
-                        'label' => __('Hide AzuraCast Branding on Public Pages'),
-                        'description' => __('If selected, this will remove the AzuraCast branding from public-facing pages.'),
+                        'label' => __('Hide Radiolize Branding on Public Pages'),
+                        'description' => __('If selected, this will remove the Radiolize branding from public-facing pages.'),
                         'selected_text' => __('Yes'),
                         'deselected_text' => __('No'),
                         'default' => false,

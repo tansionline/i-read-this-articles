@@ -88,7 +88,7 @@ return [
                     'text',
                     [
                         'label' => __('Web Site URL'),
-                        'description' => __('Note: This should be the public-facing homepage of the radio station, not the AzuraCast URL. It will be included in broadcast details.'),
+                        'description' => __('Note: This should be the public-facing homepage of the radio station, not the Radiolize URL. It will be included in broadcast details.'),
                         'form_group_class' => 'col-md-6',
                     ],
                 ],
@@ -376,7 +376,7 @@ return [
                     'toggle',
                     [
                         'label' => __('Record Live Broadcasts'),
-                        'description' => __('If enabled, AzuraCast will automatically record any live broadcasts made to this station to per-broadcast recordings.'),
+                        'description' => __('If enabled, Radiolize will automatically record any live broadcasts made to this station to per-broadcast recordings.'),
                         'selected_text' => __('Yes'),
                         'deselected_text' => __('No'),
                         'default' => false,
@@ -499,7 +499,7 @@ return [
                     'number',
                     [
                         'label' => __('AutoDJ Queue Length'),
-                        'description' => __('If using AzuraCast\'s AutoDJ, this determines how many songs in advance the AutoDJ will automatically fill the queue.'),
+                        'description' => __('If using Radiolize\'s AutoDJ, this determines how many songs in advance the AutoDJ will automatically fill the queue.'),
                         'default' => StationBackendConfiguration::DEFAULT_QUEUE_LENGTH,
                         'min' => 1,
                         'max' => 25,
@@ -513,7 +513,7 @@ return [
                     [
                         'label' => __('Manual AutoDJ Mode'),
                         'label_class' => 'advanced',
-                        'description' => __('This mode disables AzuraCast\'s AutoDJ management, using Liquidsoap itself to manage song playback. "Next Song" and some other features will not be available.'),
+                        'description' => __('This mode disables Radiolize\'s AutoDJ management, using Liquidsoap itself to manage song playback. "Next Song" and some other features will not be available.'),
                         'selected_text' => __('Yes'),
                         'deselected_text' => __('No'),
                         'default' => false,

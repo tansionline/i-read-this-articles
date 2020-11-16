@@ -23,14 +23,14 @@ class C02_Station_MediaCest extends CestAbstract
         ]);
 
         $I->seeResponseContainsJson([
-            'title' => 'AzuraCast is Live!',
-            'artist' => 'AzuraCast.com',
+            'title' => 'Radiolize is Live!',
+            'artist' => 'Radiolize.com',
         ]);
 
         $I->sendGET('/api/station/' . $station_id . '/files/list');
 
         $I->seeResponseContainsJson([
-            'media_name' => 'AzuraCast.com - AzuraCast is Live!',
+            'media_name' => 'Radiolize.com - Radiolize is Live!',
         ]);
 
         $I->amOnPage('/station/' . $station_id . '/files');

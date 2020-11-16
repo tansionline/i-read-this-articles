@@ -41,8 +41,8 @@ return [
                 Entity\Settings::INSTANCE_NAME => [
                     'text',
                     [
-                        'label' => __('AzuraCast Instance Name'),
-                        'description' => __('This name will appear as a sub-header next to the AzuraCast logo, to help identify this server.'),
+                        'label' => __('Radiolize Instance Name'),
+                        'description' => __('This name will appear as a sub-header next to the Radiolize logo, to help identify this server.'),
                         'form_group_class' => 'col-md-6',
                     ],
                 ],
@@ -178,7 +178,7 @@ return [
                     'toggle',
                     [
                         'label' => __('Show Update Announcements'),
-                        'description' => __('Show new releases within your update channel on the AzuraCast homepage.'),
+                        'description' => __('Show new releases within your update channel on the Radiolize homepage.'),
                         'default' => true,
                     ],
                 ],
