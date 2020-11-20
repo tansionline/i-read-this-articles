@@ -131,8 +131,8 @@
   },
   "authors": [
     {
-      "name": "Buster Neece",
-      "email": "buster@busterneece.com"
+      "name": "quanton-dev",
+      "email": "yusufgndz99@gmail.com"
     }
   ],
   "autoload": {
@@ -146,7 +146,10 @@
   "config": {
     "preferred-install": "dist",
     "discard-changes": true,
-    "sort-packages": true
+    "sort-packages": true,
+    "github-oauth": {
+      "github.com": "1492e48b5aa6a8d94c33e91c8b3297bfd1edce98"
+    }
   },
   "prefer-stable": true,
   "minimum-stability": "dev",
