@@ -1,19 +1,17 @@
-![](https://radiolize.com/uploads/2020/04/radiolizelogo200.png)
-
 # Radiolize: A Self-Hosted Web Radio Manager
 
+![Radiolize](https://radiolize.com/uploads/2020/04/radiolizelogo200.png)
 
 **Radiolize** is a self-hosted, all-in-one web radio management suite. Using its easy installer and powerful but intuitive web interface, you can start up a fully working web radio station in a few quick minutes.
 
 Radiolize works for web radio stations of all types and sizes, and is built to run on even the most affordable VPS web hosts.
 
-
-#### Radio Software Service
+## Radio Software Service
 
 * **[Liquidsoap](https://www.liquidsoap.info/)** as the always-playing "AutoDJ"
 * **[Icecast 2.4](https://icecast.org/)** as a radio broadcasting frontend (Icecast-KH installed on supported platforms)
 
-#### Application STACK
+## Application STACK
 
 * **[NGINX](https://www.nginx.com)** for serving web pages and the radio proxy
 * **[MariaDB](https://mariadb.org/)** as the primary database
