@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <ruleset name="AzuraCast">
-    <description>The AzuraCast PHP coding standard.</description>
+    <description>The Radiolize PHP coding standard.</description>
 
     <file>src</file>
 
