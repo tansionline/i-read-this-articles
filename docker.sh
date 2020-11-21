@@ -168,7 +168,7 @@ envfile-set() {
 }
 
 #
-# Configure the ports used by AzuraCast.
+# Configure the ports used by Radiolize.
 #
 setup-ports() {
     envfile-set "AZURACAST_HTTP_PORT" "80" "Port to use for HTTP connections"
@@ -177,7 +177,7 @@ setup-ports() {
 }
 
 #
-# Configure the settings used by LetsEncrypt.
+# Generates SSL configurations on env file
 #
 setup-letsencrypt() {
     envfile-set "LETSENCRYPT_HOST" "" "Domain name (example.com) or names (example.com,foo.bar) to use with LetsEncrypt"
@@ -201,6 +201,7 @@ setup-release() {
 # Usage: ./docker.sh install
 #
 install() {
+    # Install Curl If not installed
     if [[ ! $(command -v curl) ]]; then
         echo "cURL does not appear to be installed."
         echo "Install curl using your host's package manager,"
@@ -208,6 +209,7 @@ install() {
         exit 1
     fi
 
+    # If Docker is not installed: install with recommended way.
     if [[ $(command -v docker) && $(docker --version) ]]; then
         echo "Docker is already installed! Continuing..."
     else
@@ -226,6 +228,7 @@ install() {
         fi
     fi
 
+    # If docker-compose is not installed:  install with recommended way.
     if [[ $(command -v docker-compose) && $(docker-compose --version) ]]; then
         echo "Docker Compose is already installed! Continuing..."
     else
@@ -251,14 +254,16 @@ install() {
         fi
     fi
 
+    #Get Default environment file from source
     if [[ ! -f .env ]]; then
         echo "Writing default .env file..."
-        curl -fsSL https://raw.githubusercontent.com/AzuraCast/AzuraCast/master/sample.env -o .env
+        curl -fsSL https://raw.githubusercontent.com/bytelus/Radiolize/main/sample.env -o .env
     fi
 
+    #Get Default Settings file from source
     if [[ ! -f azuracast.env ]]; then
         echo "Creating default Radiolize settings file..."
-        curl -fsSL https://raw.githubusercontent.com/AzuraCast/AzuraCast/master/azuracast.sample.env -o azuracast.env
+        curl -fsSL https://raw.githubusercontent.com/bytelus/Radiolize/main/azuracast.sample.env -o azuracast.env
 
         # Generate a random password and replace the MariaDB password with it.
         local NEW_PASSWORD
@@ -271,6 +276,7 @@ install() {
 
     setup-release
 
+    #Get DockerFile from source
     if [[ ! -f docker-compose.yml ]]; then
         echo "Retrieving default docker-compose.yml file..."
 
@@ -279,9 +285,9 @@ install() {
         AZURACAST_VERSION="${REPLY:-latest}"
 
         if [[ $AZURACAST_VERSION == "stable" ]]; then
-            curl -fsSL https://raw.githubusercontent.com/AzuraCast/AzuraCast/stable/docker-compose.sample.yml -o docker-compose.yml
+            curl -fsSL https://raw.githubusercontent.com/bytelus/Radiolize/main/docker-compose.sample.yml -o docker-compose.yml
         else
-            curl -fsSL https://raw.githubusercontent.com/AzuraCast/AzuraCast/master/docker-compose.sample.yml -o docker-compose.yml
+            curl -fsSL https://raw.githubusercontent.com/bytelus/Radiolize/main/docker-compose.sample.yml -o docker-compose.yml
         fi
     fi
 
@@ -293,6 +299,7 @@ install() {
         setup-letsencrypt
     fi
 
+    #Get docker images and run them on background
     docker-compose pull
     docker-compose run --rm --user="azuracast" web azuracast_install "$@"
     docker-compose up -d
@@ -306,7 +313,7 @@ install() {
 update() {
     if ask "Please make sure your AzuraCast installation is backed up before updating. Continue?" Y; then
         # Check for a new Docker Utility Script.
-        curl -fsSL https://raw.githubusercontent.com/AzuraCast/AzuraCast/master/docker.sh -o docker.new.sh
+        curl -fsSL https://raw.githubusercontent.com/bytelus/Radiolize/main/docker.sh -o docker.new.sh
 
         local UTILITY_FILES_MATCH
         UTILITY_FILES_MATCH="$(
@@ -333,7 +340,7 @@ update() {
         fi
 
         if [[ ! -f azuracast.env ]]; then
-            curl -fsSL https://raw.githubusercontent.com/AzuraCast/AzuraCast/master/azuracast.sample.env -o azuracast.env
+            curl -fsSL https://raw.githubusercontent.com/bytelus/Radiolize/main/azuracast.sample.env -o azuracast.env
             echo "Default environment file loaded."
         fi
 
@@ -355,9 +362,9 @@ update() {
         AZURACAST_VERSION="${REPLY:-latest}"
 
         if [[ $AZURACAST_VERSION == "stable" ]]; then
-            curl -fsSL https://raw.githubusercontent.com/AzuraCast/AzuraCast/stable/docker-compose.sample.yml -o docker-compose.new.yml
+            curl -fsSL https://raw.githubusercontent.com/bytelus/Radiolize/main/docker-compose.sample.yml -o docker-compose.yml
         else
-            curl -fsSL https://raw.githubusercontent.com/AzuraCast/AzuraCast/master/docker-compose.sample.yml -o docker-compose.new.yml
+            curl -fsSL https://raw.githubusercontent.com/bytelus/Radiolize/main/docker-compose.sample.yml -o docker-compose.yml
         fi
 
         # Check for updated Docker Compose config.
@@ -406,7 +413,8 @@ update() {
 # Usage: ./docker.sh update-self
 #
 update-self() {
-    curl -fsSL https://raw.githubusercontent.com/AzuraCast/AzuraCast/master/docker.sh -o docker.sh
+    #Get new docker.sh file from server
+    curl -fsSL https://raw.githubusercontent.com/bytelus/Radiolize/main/docker.sh -o docker.sh
     chmod a+x docker.sh
 
     echo "New Docker utility script downloaded."
@@ -423,7 +431,7 @@ cli() {
 }
 
 #
-# Enter the bash terminal of the running web container.
+# Enter the bash terminal of the running web container. With azuracast user.
 # Usage: ./docker.sh bash
 #
 bash() {
@@ -492,6 +500,7 @@ restore() {
         exit 1
     fi
 
+    # Check if there is a file
     if [[ ! -f ${BACKUP_PATH} ]]; then
         echo "File '${BACKUP_PATH}' does not exist. Nothing to restore."
         exit 1
@@ -506,6 +515,7 @@ restore() {
 
         docker-compose up -d web
         docker cp "${BACKUP_PATH}" "azuracast_web:tmp/cli_backup.${BACKUP_EXT}"
+        # Run Restoration command in  azuracast cli
         MSYS_NO_PATHCONV=1 docker exec --user="azuracast" azuracast_web azuracast_restore "/tmp/cli_backup.${BACKUP_EXT}" "$@"
 
         docker-compose down
