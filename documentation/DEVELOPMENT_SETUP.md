@@ -131,7 +131,7 @@ sudo composer install
 After this we will download packages for fronted:
 
 ```bash
-cd fronted
+cd frontend
 sudo apt update
 sudo apt install npm
 sudo npm install gulp
