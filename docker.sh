@@ -303,6 +303,7 @@ install() {
     docker-compose pull
     docker-compose run --rm --user="azuracast" web azuracast_install "$@"
     docker-compose up -d
+    docker exec -d azuracast_web bash -c "sudo chown -R azuracast:azuracast ../stations"
     exit
 }
 
@@ -397,7 +398,7 @@ update() {
         docker volume rm azuracast_www_vendor
         docker volume rm azuracast_tmp_data
         docker volume rm azuracast_redis_data
-
+        docker exec -d azuracast_web bash -c "sudo chown -R azuracast:azuracast ../stations"
         docker-compose run --rm --user="azuracast" web azuracast_update "$@"
         docker-compose up -d
 
@@ -516,6 +517,7 @@ restore() {
         docker-compose up -d web
         docker cp "${BACKUP_PATH}" "azuracast_web:tmp/cli_backup.${BACKUP_EXT}"
         # Run Restoration command in  azuracast cli
+        docker exec -d azuracast_web bash -c "sudo chown -R azuracast:azuracast ../stations"
         MSYS_NO_PATHCONV=1 docker exec --user="azuracast" azuracast_web azuracast_restore "/tmp/cli_backup.${BACKUP_EXT}" "$@"
 
         docker-compose down
