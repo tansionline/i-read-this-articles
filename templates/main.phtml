@@ -42,8 +42,30 @@ $user = $request->getUser();
 <?=$assets->inlineJs()?>
 
 <a class="sr-only sr-only-focusable" href="#content"><?=__('Skip to main content')?></a>
+<div style="height:30px; width: 100%; background-color: #69ed86; text-align: center;" class="fixed-top">
+    <center>
+        <span style="font-size: larger; line-height:30px;">
+       <a href="https://radiolize.com/pricing/" target="_blank"
+                rel="noreferrer" style="color:black; font-weight:500 ; text-decoration: none;"> This is a demo. If you like what you see, click to start your own radio</a>
+            
+        </span>
 
-<header class="navbar bg-primary-dark shadow-sm fixed-top">
+    </center>
+
+</div>
+<div style="height:30px; width: 100%; background-color: #69ed86; text-align: center;" >
+    <center>
+        <span style="font-size: larger; line-height:30px;">
+       <a href="https://radiolize.com/pricing/" target="_blank"
+                rel="noreferrer" style="color:black; font-weight:500 ; text-decoration: none;"> This is a demo. If you like what you see, click to start your own radio</a>
+            
+        </span>
+
+    </center>
+
+</div>
+
+<header class="navbar bg-primary-dark shadow-sm fixed-top" style="margin-top:30px;">
     <?php if (!empty($sidebar)): ?>
         <button aria-controls="sidebar" aria-expanded="false" aria-label="<?=__('Toggle Sidebar')?>" class="navbar-toggler d-inline-flex d-lg-none mr-3" data-breakpoint="lg" data-target="#sidebar" data-toggle="navdrawer" data-type="permanent">
             <span class="navbar-toggler-icon"></span>
@@ -119,8 +141,9 @@ $user = $request->getUser();
     </div>
 </header>
 
+
 <?php if (!empty($sidebar)): ?>
-    <div class="navdrawer navdrawer-permanent-lg navdrawer-permanent-clipped" id="sidebar" tabindex="-1">
+    <div class="navdrawer navdrawer-permanent-lg navdrawer-permanent-clipped" id="sidebar" tabindex="-1" style="margin-top:30px;">
         <nav class="navdrawer-content">
             <?=$sidebar?>
         </nav>
