@@ -14,14 +14,17 @@
 ---
 
 # Frontend
+- [Understanding Flexbox](https://www.freecodecamp.org/news/understanding-flexbox-everything-you-need-to-know-b4013d4dc9af/)
+- [Must Read This ](https://github.com/mmertdogann/Must-Read-SE-Books)
 - [9 Popular GitHub Repos For Every Web Developer ](https://dev.to/simonholdorf/9-popular-github-repos-for-every-web-developer-31ej)
 - [10 javascript array methods to simplify your code](https://denic.hashnode.dev/10-javascript-array-methods-to-simplify-your-code)
 - [10 things frontend developers should learn in 2021](https://blog.simonholdorf.com/10-things-front-end-developers-should-learn-in-2021)
 
 # Backend
-
+- [Must Read This ](https://github.com/mmertdogann/Must-Read-SE-Books)
 
 # Productivity
+- [Must Read This ](https://github.com/mmertdogann/Must-Read-SE-Books)
 - [How I doubled my productivity while working from home ](https://dev.to/cpave3/how-i-doubled-my-productivity-while-working-from-home-3537)
 - [Why the 80/20 Principle is The Key to Unlocking Self Learning](https://arter.dev/why-the-8020-principle-is-the-key-to-unlocking-self-learning)
 - [5 must haves for a developer](https://edidiongasikpo.com/5-must-haves-for-a-developer)
@@ -36,6 +39,8 @@
 
 
 # Latest
+- [20 December 2020] [Understanding Flexbox](https://www.freecodecamp.org/news/understanding-flexbox-everything-you-need-to-know-b4013d4dc9af/)
+- [20 December 2020] [Must Read This ](https://github.com/mmertdogann/Must-Read-SE-Books)
 - [6 December 2020] [Firebase Security Rules](https://dev.to/chandrapantachhetri/firebase-security-rules-43kn)
 - [6 December 2020] [9 Popular GitHub Repos For Every Web Developer ](https://dev.to/simonholdorf/9-popular-github-repos-for-every-web-developer-31ej)
 - [6 December 2020] [How I doubled my productivity while working from home ](https://dev.to/cpave3/how-i-doubled-my-productivity-while-working-from-home-3537)
