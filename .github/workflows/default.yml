@@ -51,21 +51,6 @@ jobs:
         uses: ./.github/actions/generate-locales
         if: github.event_name == 'push' || github.event_name == 'schedule'
 
-      - name: Pull latest translations.
-        uses: crowdin/github-action@1.0.10
-        with:
-          upload_sources: true
-          download_translations: true
-          export_only_approved: false
-          push_translations: false
-          crowdin_branch_name: master
-          config: crowdin.yaml
-        if: github.event_name == 'push' || github.event_name == 'schedule'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
-          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
-
       - name: Import locales, build static assets.
         uses: ./.github/actions/build
 
