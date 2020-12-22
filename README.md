@@ -14,6 +14,7 @@
 ---
 
 # Frontend
+- [10 JavaScript Hacks Every Web Developer Should Know](https://www.freecodecamp.org/news/javascript-hacks/)
 - [Understanding Flexbox](https://www.freecodecamp.org/news/understanding-flexbox-everything-you-need-to-know-b4013d4dc9af/)
 - [Must Read This ](https://github.com/mmertdogann/Must-Read-SE-Books)
 - [9 Popular GitHub Repos For Every Web Developer ](https://dev.to/simonholdorf/9-popular-github-repos-for-every-web-developer-31ej)
@@ -39,6 +40,7 @@
 
 
 # Latest
+- [22 December 2020] [10 JavaScript Hacks Every Web Developer Should Know](https://www.freecodecamp.org/news/javascript-hacks/)
 - [20 December 2020] [Understanding Flexbox](https://www.freecodecamp.org/news/understanding-flexbox-everything-you-need-to-know-b4013d4dc9af/)
 - [20 December 2020] [Must Read This ](https://github.com/mmertdogann/Must-Read-SE-Books)
 - [6 December 2020] [Firebase Security Rules](https://dev.to/chandrapantachhetri/firebase-security-rules-43kn)
