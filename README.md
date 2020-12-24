@@ -22,6 +22,7 @@
 - [10 things frontend developers should learn in 2021](https://blog.simonholdorf.com/10-things-front-end-developers-should-learn-in-2021)
 
 # Backend
+- [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
 - [Must Read This ](https://github.com/mmertdogann/Must-Read-SE-Books)
 
 # Productivity
@@ -40,6 +41,7 @@
 
 
 # Latest
+- [25 December 2020] [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
 - [22 December 2020] [10 JavaScript Hacks Every Web Developer Should Know](https://www.freecodecamp.org/news/javascript-hacks/)
 - [20 December 2020] [Understanding Flexbox](https://www.freecodecamp.org/news/understanding-flexbox-everything-you-need-to-know-b4013d4dc9af/)
 - [20 December 2020] [Must Read This ](https://github.com/mmertdogann/Must-Read-SE-Books)
