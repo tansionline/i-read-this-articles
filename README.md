@@ -28,7 +28,8 @@
 - [Must Read This ](https://github.com/mmertdogann/Must-Read-SE-Books)
 
 # Productivity
-- [Must Read This ](https://github.com/mmertdogann/Must-Read-SE-Books)
+- [How i got job as a developer at 16](https://vladpasca.hashnode.dev/how-i-got-a-job-as-a-developer-at-16-1)
+- [Must Read This](https://github.com/mmertdogann/Must-Read-SE-Books)
 - [How I doubled my productivity while working from home ](https://dev.to/cpave3/how-i-doubled-my-productivity-while-working-from-home-3537)
 - [Why the 80/20 Principle is The Key to Unlocking Self Learning](https://arter.dev/why-the-8020-principle-is-the-key-to-unlocking-self-learning)
 - [5 must haves for a developer](https://edidiongasikpo.com/5-must-haves-for-a-developer)
