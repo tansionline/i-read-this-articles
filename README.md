@@ -14,6 +14,8 @@
 ---
 
 # Frontend
+- [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [10 JavaScript Hacks Every Web Developer Should Know](https://www.freecodecamp.org/news/javascript-hacks/)
 - [Understanding Flexbox](https://www.freecodecamp.org/news/understanding-flexbox-everything-you-need-to-know-b4013d4dc9af/)
 - [Must Read This ](https://github.com/mmertdogann/Must-Read-SE-Books)
@@ -41,6 +43,8 @@
 
 
 # Latest
+- [29 December 2020] [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [29 December 2020] [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [25 December 2020] [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
 - [22 December 2020] [10 JavaScript Hacks Every Web Developer Should Know](https://www.freecodecamp.org/news/javascript-hacks/)
 - [20 December 2020] [Understanding Flexbox](https://www.freecodecamp.org/news/understanding-flexbox-everything-you-need-to-know-b4013d4dc9af/)
