@@ -44,6 +44,7 @@
 
 
 # Latest
+- [29 December 2020] [How i got job as a developer at 16](https://vladpasca.hashnode.dev/how-i-got-a-job-as-a-developer-at-16-1)
 - [29 December 2020] [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 - [29 December 2020] [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [25 December 2020] [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
