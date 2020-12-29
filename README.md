@@ -20,7 +20,7 @@
 - [Understanding Flexbox](https://www.freecodecamp.org/news/understanding-flexbox-everything-you-need-to-know-b4013d4dc9af/)
 - [Must Read This ](https://github.com/mmertdogann/Must-Read-SE-Books)
 - [9 Popular GitHub Repos For Every Web Developer ](https://dev.to/simonholdorf/9-popular-github-repos-for-every-web-developer-31ej)
-- [10 javascript array methods to simplify your code](https://denic.hashnode.dev/10-javascript-array-methods-to-simplify-your-code)
+- [10 javascript Array Methods to Simplify Your Code](https://denic.hashnode.dev/10-javascript-array-methods-to-simplify-your-code)
 - [10 things frontend developers should learn in 2021](https://blog.simonholdorf.com/10-things-front-end-developers-should-learn-in-2021)
 
 # Backend
@@ -28,6 +28,7 @@
 - [Must Read This ](https://github.com/mmertdogann/Must-Read-SE-Books)
 
 # Productivity
+- [Repository Design Pattern](https://medium.com/@pererikbergman/repository-design-pattern-e28c0f3e4a30)
 - [How i got job as a developer at 16](https://vladpasca.hashnode.dev/how-i-got-a-job-as-a-developer-at-16-1)
 - [Must Read This](https://github.com/mmertdogann/Must-Read-SE-Books)
 - [How I doubled my productivity while working from home ](https://dev.to/cpave3/how-i-doubled-my-productivity-while-working-from-home-3537)
@@ -44,6 +45,7 @@
 
 
 # Latest
+- [29 December 2020] [Repository Design Pattern](https://medium.com/@pererikbergman/repository-design-pattern-e28c0f3e4a30)
 - [29 December 2020] [How i got job as a developer at 16](https://vladpasca.hashnode.dev/how-i-got-a-job-as-a-developer-at-16-1)
 - [29 December 2020] [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 - [29 December 2020] [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
