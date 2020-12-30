@@ -14,6 +14,7 @@
 ---
 
 # Frontend
+- [Bem should not exist](https://hackernoon.com/bem-should-not-exist-6414005765d6)
 - [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [10 JavaScript Hacks Every Web Developer Should Know](https://www.freecodecamp.org/news/javascript-hacks/)
@@ -45,6 +46,7 @@
 
 
 # Latest
+- [30 December 2020] [Bem should not exist](https://hackernoon.com/bem-should-not-exist-6414005765d6)
 - [29 December 2020] [Repository Design Pattern](https://medium.com/@pererikbergman/repository-design-pattern-e28c0f3e4a30)
 - [29 December 2020] [How i got job as a developer at 16](https://vladpasca.hashnode.dev/how-i-got-a-job-as-a-developer-at-16-1)
 - [29 December 2020] [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
