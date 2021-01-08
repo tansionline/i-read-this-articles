@@ -42,7 +42,7 @@ $user = $request->getUser();
 <?=$assets->inlineJs()?>
 
 <a class="sr-only sr-only-focusable" href="#content"><?=__('Skip to main content')?></a>
-<!-- <div style="height:30px; width: 100%; background-color: #69ed86; text-align: center;" class="fixed-top">
+<div style="height:30px; width: 100%; background-color: #69ed86; text-align: center;" class="fixed-top">
     <center>
         <span style="font-size: larger; line-height:30px;">
        <a href="https://radiolize.com/pricing/" target="_blank"
@@ -64,8 +64,8 @@ $user = $request->getUser();
     </center>
 
 </div>
- -->
-<header class="navbar bg-primary-dark shadow-sm fixed-top">
+
+<header class="navbar bg-primary-dark shadow-sm fixed-top" style="margin-top:30px;">
     <?php if (!empty($sidebar)): ?>
         <button aria-controls="sidebar" aria-expanded="false" aria-label="<?=__('Toggle Sidebar')?>" class="navbar-toggler d-inline-flex d-lg-none mr-3" data-breakpoint="lg" data-target="#sidebar" data-toggle="navdrawer" data-type="permanent">
             <span class="navbar-toggler-icon"></span>
