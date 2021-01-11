@@ -25,6 +25,7 @@
 - [10 things frontend developers should learn in 2021](https://blog.simonholdorf.com/10-things-front-end-developers-should-learn-in-2021)
 
 # Backend
+- [PHP vs JavaScript](https://www.freecodecamp.org/news/php-vs-javascript-which-technology-will-suit-your-business-better/#:~:text=PHP%20is%20a%20back%20end,well%20as%20HTML%20and%20CSS.)
 - [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
 - [Must Read This ](https://github.com/mmertdogann/Must-Read-SE-Books)
 
@@ -46,6 +47,7 @@
 
 
 # Latest
+- [11 January 2021] [PHP vs JavaScript](https://www.freecodecamp.org/news/php-vs-javascript-which-technology-will-suit-your-business-better/#:~:text=PHP%20is%20a%20back%20end,well%20as%20HTML%20and%20CSS.)
 - [30 December 2020] [Bem should not exist](https://hackernoon.com/bem-should-not-exist-6414005765d6)
 - [29 December 2020] [Repository Design Pattern](https://medium.com/@pererikbergman/repository-design-pattern-e28c0f3e4a30)
 - [29 December 2020] [How i got job as a developer at 16](https://vladpasca.hashnode.dev/how-i-got-a-job-as-a-developer-at-16-1)
