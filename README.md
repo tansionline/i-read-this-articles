@@ -25,6 +25,7 @@
 - [10 things frontend developers should learn in 2021](https://blog.simonholdorf.com/10-things-front-end-developers-should-learn-in-2021)
 
 # Backend
+- [Guys, REST APIs are not Databases](https://medium.com/@marinithiago/guys-rest-apis-are-not-databases-60db4e1120e4)
 - [Serverless SQLite](https://sql.lspgn.workers.dev/?hn)
 - [PHP vs JavaScript](https://www.freecodecamp.org/news/php-vs-javascript-which-technology-will-suit-your-business-better/#:~:text=PHP%20is%20a%20back%20end,well%20as%20HTML%20and%20CSS.)
 - [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
@@ -48,6 +49,7 @@
 
 
 # Latest
+- [25 January 2021] [Guys, REST APIs are not Databases](https://medium.com/@marinithiago/guys-rest-apis-are-not-databases-60db4e1120e4)
 - [20 January 2021] [Serverless SQLite](https://sql.lspgn.workers.dev/?hn)
 - [11 January 2021] [PHP vs JavaScript](https://www.freecodecamp.org/news/php-vs-javascript-which-technology-will-suit-your-business-better/#:~:text=PHP%20is%20a%20back%20end,well%20as%20HTML%20and%20CSS.)
 - [30 December 2020] [Bem should not exist](https://hackernoon.com/bem-should-not-exist-6414005765d6)
