@@ -43,12 +43,14 @@
 - [10 javascript array methods to simplify your code](https://denic.hashnode.dev/10-javascript-array-methods-to-simplify-your-code)
 
 # Security
+- [New campaign targeting security researchers](https://blog.google/threat-analysis-group/new-campaign-targeting-security-researchers/)
 - [Firebase Security Rules](https://dev.to/chandrapantachhetri/firebase-security-rules-43kn)
 
 
 
 
 # Latest
+- [26 January 2021] [New campaign targeting security researchers](https://blog.google/threat-analysis-group/new-campaign-targeting-security-researchers/)
 - [25 January 2021] [Guys, REST APIs are not Databases](https://medium.com/@marinithiago/guys-rest-apis-are-not-databases-60db4e1120e4)
 - [20 January 2021] [Serverless SQLite](https://sql.lspgn.workers.dev/?hn)
 - [11 January 2021] [PHP vs JavaScript](https://www.freecodecamp.org/news/php-vs-javascript-which-technology-will-suit-your-business-better/#:~:text=PHP%20is%20a%20back%20end,well%20as%20HTML%20and%20CSS.)
