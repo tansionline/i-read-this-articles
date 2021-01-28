@@ -25,6 +25,8 @@
 - [10 things frontend developers should learn in 2021](https://blog.simonholdorf.com/10-things-front-end-developers-should-learn-in-2021)
 
 # Backend
+- [Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
+- [How to build blazing fast REST APIs with Node.js, MongoDB, Fastify and Swagger](https://www.freecodecamp.org/news/how-to-build-blazing-fast-rest-apis-with-node-js-mongodb-fastify-and-swagger-114e062db0c9/)
 - [Guys, REST APIs are not Databases](https://medium.com/@marinithiago/guys-rest-apis-are-not-databases-60db4e1120e4)
 - [Serverless SQLite](https://sql.lspgn.workers.dev/?hn)
 - [PHP vs JavaScript](https://www.freecodecamp.org/news/php-vs-javascript-which-technology-will-suit-your-business-better/#:~:text=PHP%20is%20a%20back%20end,well%20as%20HTML%20and%20CSS.)
@@ -50,6 +52,8 @@
 
 
 # Latest
+- [28 January 2021] [Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
+- [28 January 2021] [How to build blazing fast REST APIs with Node.js, MongoDB, Fastify and Swagger](https://www.freecodecamp.org/news/how-to-build-blazing-fast-rest-apis-with-node-js-mongodb-fastify-and-swagger-114e062db0c9/)
 - [26 January 2021] [New campaign targeting security researchers](https://blog.google/threat-analysis-group/new-campaign-targeting-security-researchers/)
 - [25 January 2021] [Guys, REST APIs are not Databases](https://medium.com/@marinithiago/guys-rest-apis-are-not-databases-60db4e1120e4)
 - [20 January 2021] [Serverless SQLite](https://sql.lspgn.workers.dev/?hn)
