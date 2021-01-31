@@ -51,6 +51,9 @@ import FormSource from "./form/PlaylistFormSource"
 import FormSchedule from "./form/PlaylistFormSchedule"
 import FormAdvanced from "./form/PlaylistFormAdvanced"
 import InvisibleSubmitButton from "../components/InvisibleSubmitButton"
+import { helpers } from 'vuelidate/lib/validators'
+
+const playlistRequired = helpers.regex('playlistRequired', /^[a-zA-Z0-9]*$/)
 
 export default {
   name: "EditModal",
@@ -87,7 +90,7 @@ export default {
   },
   validations: {
     form: {
-      name: { required },
+      name: { required, playlistRequired },
       is_enabled: { required },
       include_in_on_demand: {},
       weight: { required },
