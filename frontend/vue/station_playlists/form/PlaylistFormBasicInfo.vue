@@ -10,11 +10,11 @@
             id="form_edit_name"
             type="text"
             v-model="form.name.$model"
-            :state="form.name.$dirty ? !form.name.$error : null"
+            :state="form.name.$dirty ? !form.name.$error : null" playlistRequired
           ></b-form-input>
           <b-form-invalid-feedback>
             <translate key="lang_error_required"
-              >This field is required.</translate
+              >You should use small English characters and numbers.</translate
             >
           </b-form-invalid-feedback>
         </b-form-group>
