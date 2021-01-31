@@ -26,9 +26,12 @@
 import { validationMixin } from 'vuelidate';
 import axios from 'axios';
 import required from 'vuelidate/src/validators/required';
+import { helpers } from 'vuelidate/lib/validators'
 import FormBasicInfo from './form/StreamerFormBasicInfo';
 import FormSchedule from './form/StreamerFormSchedule';
 import InvisibleSubmitButton from '../components/InvisibleSubmitButton';
+
+const usernameRequired = helpers.regex('usernameRequired', /^[a-z0-9]*$/)
 
 export default {
     name: 'EditModal',
@@ -49,7 +52,7 @@ export default {
     validations () {
         let validations = {
             form: {
-                'streamer_username': { required },
+                'streamer_username': { required, usernameRequired },
                 'streamer_password': {},
                 'display_name': {},
                 'comments': {},
