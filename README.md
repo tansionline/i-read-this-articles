@@ -14,6 +14,7 @@
 ---
 
 # Frontend
+- [How I Improved My CSS Skills](https://dev.to/shahednasser/how-i-improved-my-css-skills-3847?utm_source=digest_mailer&utm_medium=email&utm_campaign=digest_email)
 - [Bem should not exist](https://hackernoon.com/bem-should-not-exist-6414005765d6)
 - [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
@@ -52,6 +53,7 @@
 
 
 # Latest
+- [10 February 2021] [How I Improved My CSS Skills](https://dev.to/shahednasser/how-i-improved-my-css-skills-3847?utm_source=digest_mailer&utm_medium=email&utm_campaign=digest_email)
 - [28 January 2021] [Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
 - [28 January 2021] [How to build blazing fast REST APIs with Node.js, MongoDB, Fastify and Swagger](https://www.freecodecamp.org/news/how-to-build-blazing-fast-rest-apis-with-node-js-mongodb-fastify-and-swagger-114e062db0c9/)
 - [26 January 2021] [New campaign targeting security researchers](https://blog.google/threat-analysis-group/new-campaign-targeting-security-researchers/)
