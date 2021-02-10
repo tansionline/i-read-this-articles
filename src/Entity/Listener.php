@@ -200,6 +200,6 @@ class Listener
             return md5($client->ip . $client->userAgent);
         }
 
-        return md5($client['ip'] . $client['user_agent']);
+        return md5($client['ip'] . $client['user_agent'] . $client['uid']);
     }
 }
