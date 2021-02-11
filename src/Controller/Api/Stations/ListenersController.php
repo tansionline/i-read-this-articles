@@ -176,6 +176,7 @@ class ListenersController
         $listeners = [];
         foreach ($listeners_raw as $listener) {
             $api = new Entity\Api\Listener();
+            $api->uid =  uniqid ( string $prefix = "" , bool $more_entropy = false );
             $api->ip = (string)$listener['listener_ip'];
             $api->user_agent = (string)$listener['listener_user_agent'];
             $api->is_mobile = $detect->isMobile($listener['listener_user_agent']);

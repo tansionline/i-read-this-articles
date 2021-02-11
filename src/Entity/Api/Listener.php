@@ -10,6 +10,13 @@ use OpenApi\Annotations as OA;
 class Listener
 {
     /**
+     * The listener's unique id
+     *
+     * @OA\Property(example="asdgdhssfh")
+     * @var string
+     */
+    public string $uid;
+    /**
      * The listener's IP address
      *
      * @OA\Property(example="127.0.0.1")
