@@ -56,7 +56,7 @@ jobs:
 
       - name: Set up functional test environment.
         run: |
-          docker pull bytelusdev/azuracast_web:latest
+          docker pull bytelusdev/azuracast_web:dev
           docker build --cache-from bytelusdev/azuracast_web:latest -t bytelusdev/azuracast_web:latest .
 
           cp azuracast.sample.env azuracast.env
