@@ -71,7 +71,8 @@ $user = $request->getUser();
             <span class="navbar-toggler-icon"></span>
         </button>
     <?php endif; ?>
-
+    
+    <img src="../web/static/img/generic_song.jpg" >
     <a class="navbar-brand ml-0 mr-auto" href="<?=$router->named('dashboard')?>">
         Radiolize <?php if (!empty($customization->getInstanceName())): ?>
             <small><?=$this->e($customization->getInstanceName())?></small><?php endif; ?>
