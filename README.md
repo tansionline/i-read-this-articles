@@ -36,6 +36,7 @@
 - [Must Read This ](https://github.com/mmertdogann/Must-Read-SE-Books)
 
 # Productivity
+- [How to Plan and Build a Programming Project – A Legitimate Guide for Beginners ](https://dev.to/peterlunch/how-to-plan-and-build-a-programming-project-a-legitimate-guide-for-beginners-1fll)
 - [Repository Design Pattern](https://medium.com/@pererikbergman/repository-design-pattern-e28c0f3e4a30)
 - [How i got job as a developer at 16](https://vladpasca.hashnode.dev/how-i-got-a-job-as-a-developer-at-16-1)
 - [Must Read This](https://github.com/mmertdogann/Must-Read-SE-Books)
@@ -54,6 +55,7 @@
 
 
 # Latest
+- [16 April 2021] [How to Plan and Build a Programming Project – A Legitimate Guide for Beginners ](https://dev.to/peterlunch/how-to-plan-and-build-a-programming-project-a-legitimate-guide-for-beginners-1fll)
 - [15 April 2021] [40+ Useful Resources for Mastering Web](https://dev.to/surajondev/40-useful-resources-for-mastering-web-1i0h)
 - [10 February 2021] [How I Improved My CSS Skills](https://dev.to/shahednasser/how-i-improved-my-css-skills-3847?utm_source=digest_mailer&utm_medium=email&utm_campaign=digest_email)
 - [28 January 2021] [Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
