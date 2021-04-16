@@ -14,6 +14,7 @@
 ---
 
 # Frontend
+- [Frontend Practice](https://www.frontendpractice.com/)
 - [40+ Useful Resources for Mastering Web](https://dev.to/surajondev/40-useful-resources-for-mastering-web-1i0h)
 - [How I Improved My CSS Skills](https://dev.to/shahednasser/how-i-improved-my-css-skills-3847?utm_source=digest_mailer&utm_medium=email&utm_campaign=digest_email)
 - [Bem should not exist](https://hackernoon.com/bem-should-not-exist-6414005765d6)
@@ -55,6 +56,7 @@
 
 
 # Latest
+- [16 April 2021] [Frontend Practice](https://www.frontendpractice.com/)
 - [16 April 2021] [How to Plan and Build a Programming Project – A Legitimate Guide for Beginners ](https://dev.to/peterlunch/how-to-plan-and-build-a-programming-project-a-legitimate-guide-for-beginners-1fll)
 - [15 April 2021] [40+ Useful Resources for Mastering Web](https://dev.to/surajondev/40-useful-resources-for-mastering-web-1i0h)
 - [10 February 2021] [How I Improved My CSS Skills](https://dev.to/shahednasser/how-i-improved-my-css-skills-3847?utm_source=digest_mailer&utm_medium=email&utm_campaign=digest_email)
