@@ -28,6 +28,7 @@
 - [10 things frontend developers should learn in 2021](https://blog.simonholdorf.com/10-things-front-end-developers-should-learn-in-2021)
 
 # Backend
+- [22 Best Practices to Take Your API Design Skills to the Next Level](https://betterprogramming.pub/22-best-practices-to-take-your-api-design-skills-to-the-next-level-65569b200b9)
 - [Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
 - [How to build blazing fast REST APIs with Node.js, MongoDB, Fastify and Swagger](https://www.freecodecamp.org/news/how-to-build-blazing-fast-rest-apis-with-node-js-mongodb-fastify-and-swagger-114e062db0c9/)
 - [Guys, REST APIs are not Databases](https://medium.com/@marinithiago/guys-rest-apis-are-not-databases-60db4e1120e4)
@@ -56,6 +57,7 @@
 
 
 # Latest
+- [18 April 2021] [22 Best Practices to Take Your API Design Skills to the Next Level](https://betterprogramming.pub/22-best-practices-to-take-your-api-design-skills-to-the-next-level-65569b200b9)
 - [16 April 2021] [Frontend Practice](https://www.frontendpractice.com/)
 - [16 April 2021] [How to Plan and Build a Programming Project – A Legitimate Guide for Beginners ](https://dev.to/peterlunch/how-to-plan-and-build-a-programming-project-a-legitimate-guide-for-beginners-1fll)
 - [15 April 2021] [40+ Useful Resources for Mastering Web](https://dev.to/surajondev/40-useful-resources-for-mastering-web-1i0h)
