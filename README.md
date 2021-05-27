@@ -14,6 +14,7 @@
 ---
 
 # Frontend
+- [10 CSS Hacks Every Web Developer Should Know](https://www.freecodecamp.org/news/10-css-hacks-every-web-developer-should-know/)
 - [Frontend Practice](https://www.frontendpractice.com/)
 - [40+ Useful Resources for Mastering Web](https://dev.to/surajondev/40-useful-resources-for-mastering-web-1i0h)
 - [How I Improved My CSS Skills](https://dev.to/shahednasser/how-i-improved-my-css-skills-3847?utm_source=digest_mailer&utm_medium=email&utm_campaign=digest_email)
@@ -57,6 +58,7 @@
 
 
 # Latest
+- [28 May 2021] [10 CSS Hacks Every Web Developer Should Know](https://www.freecodecamp.org/news/10-css-hacks-every-web-developer-should-know/)
 - [18 April 2021] [22 Best Practices to Take Your API Design Skills to the Next Level](https://betterprogramming.pub/22-best-practices-to-take-your-api-design-skills-to-the-next-level-65569b200b9)
 - [16 April 2021] [Frontend Practice](https://www.frontendpractice.com/)
 - [16 April 2021] [How to Plan and Build a Programming Project – A Legitimate Guide for Beginners ](https://dev.to/peterlunch/how-to-plan-and-build-a-programming-project-a-legitimate-guide-for-beginners-1fll)
