@@ -14,6 +14,7 @@
 ---
 
 # Frontend
+- [15 Advanced CSS Techniques To Master In 2021](https://dev.to/nimritee12/15-advanced-css-techniques-to-master-in-2021-1g9d)
 - [10 CSS Hacks Every Web Developer Should Know](https://www.freecodecamp.org/news/10-css-hacks-every-web-developer-should-know/)
 - [Frontend Practice](https://www.frontendpractice.com/)
 - [40+ Useful Resources for Mastering Web](https://dev.to/surajondev/40-useful-resources-for-mastering-web-1i0h)
@@ -39,6 +40,7 @@
 - [Must Read This ](https://github.com/mmertdogann/Must-Read-SE-Books)
 
 # Productivity
+- [5 most underrated skills of a top developer](https://dev.to/anubhavitis/5-most-underrated-skills-of-a-top-developer-bin)
 - [How to Plan and Build a Programming Project – A Legitimate Guide for Beginners ](https://dev.to/peterlunch/how-to-plan-and-build-a-programming-project-a-legitimate-guide-for-beginners-1fll)
 - [Repository Design Pattern](https://medium.com/@pererikbergman/repository-design-pattern-e28c0f3e4a30)
 - [How i got job as a developer at 16](https://vladpasca.hashnode.dev/how-i-got-a-job-as-a-developer-at-16-1)
@@ -58,6 +60,8 @@
 
 
 # Latest
+- [30 May 2021] [15 Advanced CSS Techniques To Master In 2021](https://dev.to/nimritee12/15-advanced-css-techniques-to-master-in-2021-1g9d)
+- [30 May 2021] [5 most underrated skills of a top developer](https://dev.to/anubhavitis/5-most-underrated-skills-of-a-top-developer-bin)
 - [28 May 2021] [10 CSS Hacks Every Web Developer Should Know](https://www.freecodecamp.org/news/10-css-hacks-every-web-developer-should-know/)
 - [18 April 2021] [22 Best Practices to Take Your API Design Skills to the Next Level](https://betterprogramming.pub/22-best-practices-to-take-your-api-design-skills-to-the-next-level-65569b200b9)
 - [16 April 2021] [Frontend Practice](https://www.frontendpractice.com/)
